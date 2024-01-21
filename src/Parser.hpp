@@ -71,9 +71,9 @@ public:
                 default:
                     throw std::runtime_error("Unknown token type");
             }
-
-            return bytecode;
+   
         }
+        return bytecode;
     }
 
 private:
